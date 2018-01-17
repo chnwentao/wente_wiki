@@ -2,9 +2,10 @@
 
 * [Introduction](README.md)
 * [Math Basic](chapter1.md)
-  * 概率论
-  * 信息论
-  * 矩阵论
+  * [信息论](xin-xi-lun.md)
+  * [概率论](gai-lv-lun.md)
+    * [最大似然估计](gai-lv-lun/zui-da-si-ran-gu-ji.md)
+  * [矩阵论](ju-zhen-lun.md)
 * [Machine Learning](ji-qi-xue-xi.md)
   * Kmeans
 * [Deep Learning](shen-du-xue-xi.md)
