@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Data Mining
+* [Data Mining](data-mining.md)
 * [Math Basic](chapter1.md)
   * [信息论](xin-xi-lun.md)
   * [概率论](gai-lv-lun.md)
