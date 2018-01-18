@@ -1,4 +1,6 @@
 # 个人知识体系
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+主要是为了对自己的专业知识进行梳理和备忘。
+
+
 
