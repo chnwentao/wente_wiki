@@ -8,7 +8,8 @@
     * [最大似然估计](gai-lv-lun/zui-da-si-ran-gu-ji.md)
   * [矩阵论](ju-zhen-lun.md)
 * [Machine Learning](ji-qi-xue-xi.md)
-  * Kmeans
+  * [Kmeans](ji-qi-xue-xi/kmeans.md)
+  * Boost
 * [Deep Learning](shen-du-xue-xi.md)
   * [激活函数](shen-du-xue-xi/ji-huo-han-shu.md)
   * [CNN](shen-du-xue-xi/cnn.md)
