@@ -6,5 +6,11 @@
 
 介绍：[FlashText：语料库数据快速清理利器 | 机器之心](https://www.jiqizhixin.com/articles/2017-11-10-4)
 
+特点：
+
+使用注意：
+1. 默认是不区分大小写的
+2. 多个 unclean name>
+
 
 
