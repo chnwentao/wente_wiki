@@ -15,6 +15,8 @@
   * [CNN](shen-du-xue-xi/cnn.md)
   * [RNN](shen-du-xue-xi/rnn.md)
   * [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
+* NLP
+  * word embedding
 * [Coding](coding.md)
   * [Python](coding/python.md)
   * [JAVA](coding/java.md)
