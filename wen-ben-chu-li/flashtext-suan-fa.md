@@ -13,10 +13,10 @@
 
 使用注意：
 
-1.  默认是不区分大小写的
+1. 默认是不区分大小写的
 2. 一个 standardised name 可以对应 多个 unclean name ， 但是 反之不行。
-3.  只返回最长匹配结果，不返回子串。 e.g. keyword : A AB  word ABC--- &gt; AB
-4. 严重依赖空格 ，对未分词的中文无法使用， e.g. keyword : A  B， 对  word AB 是无输出的/
+3. 只返回最长匹配结果，不返回子串。 e.g. keyword : A AB  word ABC--- &gt; AB
+4. There is no tokeniser for Chinese in built.  对未分词的中文无法使用， e.g. keyword : 中  国， 对  word 中国 是无输出的
 
 
 
