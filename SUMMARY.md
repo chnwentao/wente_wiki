@@ -21,6 +21,7 @@
   * [word embedding](word-embedding.md)
   * [Text Classification](text-classification.md)
     * [fastText](text-classification/fasttext.md)
+    * Text CNN
 * [Coding](coding.md)
   * [Python](coding/python.md)
   * [JAVA](coding/java.md)
