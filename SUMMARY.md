@@ -16,6 +16,8 @@
   * [RNN](shen-du-xue-xi/rnn.md)
   * [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
 * [NLP](nlp.md)
+  * [文本处理](wen-ben-chu-li.md)
+    * [Flashtext 算法](wen-ben-chu-li/flashtext-suan-fa.md)
   * [word embedding](word-embedding.md)
 * [Coding](coding.md)
   * [Python](coding/python.md)
