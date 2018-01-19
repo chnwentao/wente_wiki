@@ -19,7 +19,8 @@
   * [文本处理](wen-ben-chu-li.md)
     * [Flashtext 算法](wen-ben-chu-li/flashtext-suan-fa.md)
   * [word embedding](word-embedding.md)
-  * Text Classification
+  * [Text Classification](text-classification.md)
+    * [fastText](text-classification/fasttext.md)
 * [Coding](coding.md)
   * [Python](coding/python.md)
   * [JAVA](coding/java.md)
