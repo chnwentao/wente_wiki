@@ -29,4 +29,6 @@
 * Big Data
   * Hadoop
 * Knowledge Greph
+* [other knowledge](other-knowledge.md)
+  * [区块链](other-knowledge/qu-kuai-lian.md)
 
