@@ -62,3 +62,9 @@ UTXO:
 
 
 
+### 其他技术
+
+* 百度2015年就开始探索区块链了 [百度BaaS区块链平台推出半年 宣称已支撑500亿资产真实性 | 雷锋网](https://www.leiphone.com/news/201801/9zfPFdJVMKHdjMSz.html)
+* 
+
+
