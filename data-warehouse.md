@@ -13,5 +13,9 @@
 
 数据仓库：是用来支持决策的，也就是OLAP（On-Line Analytical Processing， 联机事物分析），支持复杂的分析操作，侧重决策支持，并且提供直观易懂的查询结果。
 
+### 常见数据仓库
+
+
+
 ## 参考
 - [漫画：什么是数据仓库？](https://mp.weixin.qq.com/s/XIJoE3nV7QQwGE0WLIhiRw)
