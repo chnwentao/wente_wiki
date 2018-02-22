@@ -24,6 +24,7 @@
     * [Text CNN](text-classification/text-cnn.md)
 * [Coding](coding.md)
   * [Python](coding/python.md)
+  * Shell
   * [JAVA](coding/java.md)
   * [C++](coding/c++.md)
 * [Big Data](big-data.md)
