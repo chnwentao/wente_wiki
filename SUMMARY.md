@@ -26,8 +26,9 @@
   * [Python](coding/python.md)
   * [JAVA](coding/java.md)
   * [C++](coding/c++.md)
-* Big Data
-  * Hadoop
+* [Big Data](big-data.md)
+  * [Hadoop](hadoop.md)
+  * [Data Warehouse](data-warehouse.md)
 * Knowledge Greph
 * [other knowledge](other-knowledge.md)
   * [区块链](other-knowledge/qu-kuai-lian.md)
