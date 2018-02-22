@@ -19,6 +19,8 @@
 
 - Teradata 业界老大， 其性能远远高于Hive。 商业， 性能好，贵。
 
+### 相关技术 
+
 
 ## 参考
 - [漫画：什么是数据仓库？](https://mp.weixin.qq.com/s/XIJoE3nV7QQwGE0WLIhiRw)
