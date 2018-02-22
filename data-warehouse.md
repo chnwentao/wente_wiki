@@ -21,7 +21,7 @@
 
 ### 相关技术 
 
-- ETL （Extract-Transform-Load）  用来描述将数据从来源迁移到目标的几个过程
+- ETL （Extract-Transform-Load）用来描述将数据从来源端经过抽取（extract）、转换（transform）、加载（load）至目的端的过程。ETL一词较常用在数据仓库，但其对象并不限于数据仓库。
 
 
 ## 参考
