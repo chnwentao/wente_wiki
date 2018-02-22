@@ -21,7 +21,7 @@
 
 ### 相关技术 
 
-- ETL，  Extract-Transform-Load  用来描述将数据从来源迁移到目标的几个过程
+- ETL （Extract-Transform-Load）  用来描述将数据从来源迁移到目标的几个过程
 
 
 ## 参考
