@@ -7,6 +7,7 @@
   * [概率论](gai-lv-lun.md)
     * [最大似然估计](gai-lv-lun/zui-da-si-ran-gu-ji.md)
   * [矩阵论](ju-zhen-lun.md)
+  * [张量](zhang-liang.md)
 * [Machine Learning](ji-qi-xue-xi.md)
   * [Kmeans](ji-qi-xue-xi/kmeans.md)
   * Boost
