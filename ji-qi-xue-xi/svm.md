@@ -20,5 +20,5 @@ SVM 全称：Support Vector Machine（支持向量机）
 
 实际上最终我们是要算高维的矢量积 ， 相比于从低维映射到高维空间再进行矢量积运算 ，核函数 可以帮助跳过维度转换的过程，通过相对简单的计算直接得到矢量积。
 
-![](/assets/SVM.jpg)
+![](http://7xiuu0.com1.z0.glb.clouddn.com/17-11-29/15625888.jpg)
 
