@@ -1,6 +1,4 @@
+SVM 全称：Support Vector Machine（支持向量机）
 
-
-SVM 全称：Support Vector Machine（支持向量机
-
-超平面： 
+超平面：
 
