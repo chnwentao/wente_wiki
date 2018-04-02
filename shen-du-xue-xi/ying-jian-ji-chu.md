@@ -8,5 +8,4 @@ cuDNN（CUDA Deep Neural Network library）：是NVIDIA打造的针对深度神�
 
 ### CUDA 与 OpenCL 区别
 
-\[CUDA 与 OpenCL 区别 - CSDN博客\]\(https://blog.csdn.net/babyfacer/article/details/6863572 \)
-
+[CUDA 与 OpenCL 区别 - CSDN博客](https://blog.csdn.net/babyfacer/article/details/6863572) 作者是Babyfacer，是资深高性能计算达人
