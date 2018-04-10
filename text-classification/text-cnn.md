@@ -28,6 +28,9 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
    
    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter window size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window size又有num filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window size卷积出来的num filters个scalar组合在一起，组成这个window size下的feature vector。最后再将所有window size下的feature vector也组合成一个single vector，作为最后一层softmax的输入。
 
+用于NLP的CNNs看起来是这样子的:
+
+![](http://7xiuu0.com1.z0.glb.clouddn.com/18-4-10/7965563.jpg)
 ## 文中的一些参数的设定
 
 
