@@ -49,7 +49,7 @@ Stride Size  定义了你的filter在每步中滑动多少，Stride size越大�
 一般默认为 1， 除非你认为你的输出维度过大，但是显而易见这样会丢失信息。
 
 ### Pooling Layers
-
+Pooling layers是对输入做二次抽样。在NLP中，我们一般是完整的池化整个输出，对每个filter只产生一个单一的值(scalar) ,而不是了类似图像的对每个filter 输出一个更小的矩阵
 ### Channels
 
 
