@@ -11,6 +11,7 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 ## CNN 用于文本的一些特点
 
 用与文本的CNN与传统用于图像的CNN的不同:
+
 -  inputs: 使用了word embedding  ,输出就是 一个 “句子长度 * embedding维度” 的矩阵
 -  卷积层：卷积核的宽度 == embedding的维度 
 
@@ -19,5 +20,6 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 -  max-pooling 后是一个 scalar 
     由于卷积核和word embedding的宽度一致，一个卷积核对于一个sentence，卷积后得到的结果是一个vector， shape=（sentence_len - filter_window + 1, 1），那么，在max-pooling后得到的就是一个Scalar。所以，这点也是和图像卷积的不同之处，需要注意一下。
     
-    
+- 会使用多个filter_window_size ，每个window_size又有num_filters个卷积核。
+    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter_window_size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window_size又有num_filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window_size卷积出来的num_filter个scalar组合在一起，组成这个window_size下的feature_vector。最后再将所有window_size下的feature_vector也组合成一个single vector，作为最后一层softmax的输入。
     
