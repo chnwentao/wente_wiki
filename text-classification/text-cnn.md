@@ -2,24 +2,17 @@
 
 wildml 的[Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/) 对此有很详细的解释，[这里](https://blog.csdn.net/liuyuemaicha/article/details/53728242)是中文翻译.
 
-这个领域的经典论文是 [Kim Y. Convolutional neural networks for sentence classification\[J\]. arXiv preprint arXiv:1408.5882, 2014.](https://arxiv.org/abs/1408.5882)
-
-[Yoon Kim](http://www.people.fas.harvard.edu/~yoonkim/)  在 自己的 github 上实现了一个版本[here](https://github.com/yoonkim/CNN_sentence) 不过是基于 theano.
-
-wildml对这篇paper有一个tensorflow的实现: [blog here](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)，这里是blog的中文翻译[利用TensorFlow实现卷积神经网络做文本分类 - 简书](https://www.jianshu.com/p/ed3eac3dcb39)
-
-这是一个详解 不过质量一般 初学可以参考一下 [Yoon Kim的textCNN讲解，以及tensorflow实现，CNN文本分类 - CSDN博客](https://blog.csdn.net/accumulate_zhang/article/details/78504637)
 
 ## CNN 用于NLP的一些特点
 
 
+用与文本的CNN与传统用于图像的CNN有以下的不同:
 
+### inputs: 
 
-用与文本的CNN与传统用于图像的CNN的不同:
+使用了word embedding；
 
-* inputs: 使用了word embedding；
-
-  不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个embedding，一般是一个分词，但也可以是一个字，总之每行都是一个向量，代表一个word
+  不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个token，一般是一个分词，但也可以是一个字，总之每行都是一个向量，代表一个word
 
 * 卷积层：卷积核的宽度 == embedding的维度; 在视图中我们的filters会在图像的局部滑动，但在NLP中，我们一般会使用filters在矩阵的整个行上滑动。所以我们filters的宽度通常是和输入矩阵的宽度是一致的。
 
