@@ -1,6 +1,6 @@
 ## 背景
 
-这个领域的经典论文是 [Kim Y. Convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1408.5882, 2014.](https://arxiv.org/abs/1408.5882) 
+这个领域的经典论文是 [Kim Y. Convolutional neural networks for sentence classification\[J\]. arXiv preprint arXiv:1408.5882, 2014.](https://arxiv.org/abs/1408.5882)
 
 [Yoon Kim](http://www.people.fas.harvard.edu/~yoonkim/)  在 自己的 github 上实现了一个版本[here](https://github.com/yoonkim/CNN_sentence) 不过是基于 theano
 
@@ -12,15 +12,20 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
 用与文本的CNN与传统用于图像的CNN的不同:
 
--  inputs: 使用了word embedding  ,输出就是 一个 “句子长度 * embedding维度” 的矩阵
--  卷积层：卷积核的宽度 == embedding的维度 
+* inputs: 使用了word embedding  ,输出就是 一个 “句子长度 \* embedding维度” 的矩阵
+* 卷积层：卷积核的宽度 == embedding的维度
 
-    大家在图像处理中经常看到的卷积核都是正方形的，比如`4*4`，然后在整张image上沿宽和高逐步移动进行卷积操作。但是nlp中输入的“image”是一个词矩阵，比如n个words，每个word用200维的vector表示的话，这个”image”就是n*200的矩阵，卷积核只在高度上已经滑动，在宽度上和word vector的维度一致（=200），也就是说每次窗口滑动过的位置都是完整的单词，不会将几个单词的一部分“vector”进行卷积，这也保证了word作为语言中最小粒度的合理性。（当然，如果研究的粒度是character-level而不是word-level，需要另外的方式处理）
-    
--  max-pooling 后是一个 scalar 
-    由于卷积核和word embedding的宽度一致，一个卷积核对于一个sentence，卷积后得到的结果是一个vector， shape=（sentence_len - filter_window + 1, 1），那么，在max-pooling后得到的就是一个Scalar。所以，这点也是和图像卷积的不同之处，需要注意一下。
-    
-- 会使用多个filter_window_size ，每个window_size又有num_filters个卷积核。
-    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter_window_size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window_size又有num_filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window_size卷积出来的num_filter个scalar组合在一起，组成这个window_size下的feature_vector。最后再将所有window_size下的feature_vector也组合成一个single vector，作为最后一层softmax的输入。
-    
+  大家在图像处理中经常看到的卷积核都是正方形的，比如`4*4`，然后在整张image上沿宽和高逐步移动进行卷积操作。但是nlp中输入的“image”是一个词矩阵，比如n个words，每个word用200维的vector表示的话，这个”image”就是n\*200的矩阵，卷积核只在高度上已经滑动，在宽度上和word vector的维度一致（=200），也就是说每次窗口滑动过的位置都是完整的单词，不会将几个单词的一部分“vector”进行卷积，这也保证了word作为语言中最小粒度的合理性。（当然，如果研究的粒度是character-level而不是word-level，需要另外的方式处理）
+
+* max-pooling 后是一个 scalar   
+   由于卷积核和word embedding的宽度一致，一个卷积核对于一个sentence，卷积后得到的结果是一个vector， shape=（sentence\_len - filter\_window + 1, 1），那么，在max-pooling后得到的就是一个Scalar。所以，这点也是和图像卷积的不同之处，需要注意一下。
+
+* 会使用多个filter\_window\_size ，每个window\_size又有num\_filters个卷积核。  
+    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter\_window\_size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window\_size又有num\_filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window\_size卷积出来的num\_filter个scalar组合在一起，组成这个window\_size下的feature\_vector。最后再将所有window\_size下的feature\_vector也组合成一个single vector，作为最后一层softmax的输入。
+
 ## 文中的一些参数的设定
+
+
+
+
+
