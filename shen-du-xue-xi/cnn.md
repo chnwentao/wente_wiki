@@ -14,3 +14,5 @@
 
 上所示，narrow convolution产出的尺寸是`（7-5）+1=3`，而wide convolution产出尺寸是`（7+2*4-5）+1=11`
 
+## Pooling
+

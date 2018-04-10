@@ -16,6 +16,7 @@
   * [硬件基础](shen-du-xue-xi/ying-jian-ji-chu.md)
   * [激活函数](shen-du-xue-xi/ji-huo-han-shu.md)
   * [CNN](shen-du-xue-xi/cnn.md)
+    * [Pooling](shen-du-xue-xi/cnn/pooling.md)
   * [RNN](shen-du-xue-xi/rnn.md)
   * [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
 * [NLP](nlp.md)
