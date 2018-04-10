@@ -16,12 +16,10 @@
 
 * 对于标签存在一定关联的情况下的文本分类的学习
 
-
-
 ### 一些较好的综述性文章、blog:
 
-- [用深度学习（CNN RNN Attention）解决大规模文本分类问题 - 综述和实践](https://zhuanlan.zhihu.com/p/25928551)
-
+* [用深度学习（CNN RNN Attention）解决大规模文本分类问题 - 综述和实践](https://zhuanlan.zhihu.com/p/25928551)
+    比较全面的 文本分类的综述
 
 
 
