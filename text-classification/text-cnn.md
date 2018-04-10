@@ -46,7 +46,7 @@ wildml 的[Understanding Convolutional Neural Networks for NLP](http://www.wildm
 ### Stride Size
 Stride Size  定义了你的filter在每步中滑动多少，Stride size越大，filters的应用次数就会越少，输出的size就会越小。
 
-一般默认为 1， 
+一般默认为 1， 除非你认为你的输出维度过大，但是显而易见这样会丢失信息。
 
 ### Pooling Layers
 
