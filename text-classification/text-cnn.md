@@ -11,7 +11,8 @@ wildml对这篇paper有一个tensorflow的实现: [blog here](http://www.wildml.
 
 
 ## CNN 用于文本的一些特点
-wildml 的[Understanding Convolutional Neural Networks for NLP – WildML](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/) 对此有很详细的解释，[这里](https://blog.csdn.net/liuyuemaicha/article/details/53728242)是中文翻译
+
+wildml 的[Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/) 对此有很详细的解释，[这里](https://blog.csdn.net/liuyuemaicha/article/details/53728242)是中文翻译.
 
 
 用与文本的CNN与传统用于图像的CNN的不同:
