@@ -24,9 +24,9 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
    由于卷积核和word embedding的宽度一致，一个卷积核对于一个sentence，卷积后得到的结果是一个vector， `shape=（sentence len - filter window + 1, 1）`，那么，在max-pooling后得到的就是一个Scalar。所以，这点也是和图像卷积的不同之处，需要注意一下。
 
-* 会使用多个filter window size（一般是 2-5 ） ，每个 window size 又有多个filter个卷积核。 
+* 会使用多个 window size的 filter （一般是 2-5 ） ，每个 window size 又有多个filter个卷积核（num filters）。 
  
-    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter\_window\_size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window\_size又有num\_filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window\_size卷积出来的num\_filter个scalar组合在一起，组成这个window\_size下的feature\_vector。最后再将所有window\_size下的feature\_vector也组合成一个single vector，作为最后一层softmax的输入。
+    正是由于max-pooling后只是得到一个scalar，在nlp中，会实施多个filter window size（比如3,4,5个words的宽度分别作为卷积的窗口大小），每个window size又有num filters个（比如64个）卷积核。一个卷积核得到的只是一个scalar太孤单了，智慧的人们就将相同window size卷积出来的num filters个scalar组合在一起，组成这个window\_size下的feature\_vector。最后再将所有window\_size下的feature\_vector也组合成一个single vector，作为最后一层softmax的输入。
 
 ## 文中的一些参数的设定
 
