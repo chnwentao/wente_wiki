@@ -65,7 +65,7 @@ Pooling layers是对输入做二次抽样。在NLP中，我们一般是完整的
 
 ##  Kim Y’s Paper
 
-这个领域的经典论文是 [Kim Y. Convolutional neural networks for sentence classification\[J\]. arXiv preprint arXiv:1408.5882, 2014.](https://arxiv.org/abs/1408.5882)
+这个领域的经典论文是 Kim Y的  Convolutional neural networks for sentence classification[^1]
 
 
 Kim Y的这个模型很简单，但是却有着很好的性能。[Yoon Kim](http://www.people.fas.harvard.edu/~yoonkim/) 在 自己的 github 上实现了一个版本[here](https://github.com/yoonkim/CNN_sentence) 不过是基于 theano。
@@ -73,10 +73,12 @@ Kim Y的这个模型很简单，但是却有着很好的性能。[Yoon Kim](http
 后续Denny用TensorFlow实现了这个模型的简单版本[blog here](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) ， [这里是blog的中文翻译](https://www.jianshu.com/p/ed3eac3dcb39)。这是一个详解 不过质量一般 初学可以参考一下 [here](https://blog.csdn.net/accumulate_zhang/article/details/78504637)
 
 
-Ye Zhang[1] 等人对这个模型进行了大量的实验，并给出了调参的建议，[paper here ](https://arxiv.org/abs/1510.03820)
+Ye Zhang[^2] 等人对这个模型进行了大量的实验，并给出了调参的建议，[paper here ](https://arxiv.org/abs/1510.03820)
 
 
 # 参考
+[1] 
+Kim Y. Convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1408.5882, 2014.
 
-[1] Zhang Y, Wallace B. A sensitivity analysis of (and practitioners' guide to) convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1510.03820, 2015.
+[2] Zhang Y, Wallace B. A sensitivity analysis of (and practitioners' guide to) convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1510.03820, 2015.
 
