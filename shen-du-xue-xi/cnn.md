@@ -10,5 +10,7 @@
 
 在NLP中，如果滤波器的长度相对于输入向量的长度比较大，要记住使用宽卷积。
 
-![](http://7xiuu0.com1.z0.glb.clouddn.com/18-4-10/4187490.jpg)"Narrow vs. Wide Convolution. Filter size 5, input size 7. Source: A Convolutional Neural Network for Modelling Sentences (2014)"
+![test](http://7xiuu0.com1.z0.glb.clouddn.com/18-4-10/4187490.jpg)"Narrow vs. Wide Convolution. Filter size 5, input size 7. Source: A Convolutional Neural Network for Modelling Sentences (2014)"
+
+上所示，narrow convolution产出的尺寸是`（7-5）+1=3`，而wide convolution产出尺寸是`（7+2*4-5）+1=11`
 
