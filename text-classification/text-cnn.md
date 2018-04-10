@@ -37,6 +37,20 @@ wildml 的[Understanding Convolutional Neural Networks for NLP](http://www.wildm
 
 ## CNN的一些Hyperparameters的理解
 
+### Narrow vs. Wide convolution
+
+两者的不同，我在CNN 有解释，
+
+一般原则是 你的filter比输入的size还大时是必须使用 Wide convolution 的。
+
+### Stride Size
+Stride Size  定义了你的filter在每步中滑动多少，Stride size越大，filters的应用次数就会越少，输出的size就会越小。
+
+一般默认为 1， 
+
+### Pooling Layers
+
+### Channels
 
 
 
