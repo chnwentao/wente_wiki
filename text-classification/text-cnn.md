@@ -6,3 +6,4 @@
 
 wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)，这里是blog的中文翻译[利用TensorFlow实现卷积神经网络做文本分类 - 简书](https://www.jianshu.com/p/ed3eac3dcb39)
 
+这是一个详解 不过质量一般 初学可以参考一下 [Yoon Kim的textCNN讲解，以及tensorflow实现，CNN文本分类 - CSDN博客](https://blog.csdn.net/accumulate_zhang/article/details/78504637)
