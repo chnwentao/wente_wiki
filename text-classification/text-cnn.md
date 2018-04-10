@@ -18,7 +18,7 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
 * 卷积层：卷积核的宽度 == embedding的维度，在视图中我们的filters会在图像的局部滑动，但在NLP中，我们一般会使用filters在矩阵的整个行上滑动。所以我们filters的宽度通常是和输入矩阵的宽度是一致的。
 
-  大家在图像处理中经常看到的卷积核都是正方形的，比如`4*4`，然后在整张image上沿宽和高逐步移动进行卷积操作。但是nlp中输入的“image”是一个词矩阵，比如n个words，每个word用200维的vector表示的话，这个”image”就是`n*200`的矩阵，卷积核只在高度上已经滑动，在宽度上和word vector的维度一致（=200），也就是说每次窗口滑动过的位置都是完整的单词，不会将几个单词的一部分“vector”进行卷积，这也保证了word作为语言中最小粒度的合理性。（当然，如果研究的粒度是character-level而不是word-level，需要另外的方式处理）
+  大家在图像处理中经常看到的卷积核都是正方形的，比如`4*4`，然后在整张image上沿宽和高逐步移动进行卷积操作。但是nlp中输入的“image”是一个词矩阵，比如,n个words，每个word用200维的vector表示的话，这个”image”就是`n*200`的矩阵，卷积核只在高度上滑动，在宽度上和word vector的维度一致（=200），也就是说每次窗口滑动过的位置都是完整的单词，不会将几个单词的一部分“vector”进行卷积，这也保证了word作为语言中最小粒度的合理性。（当然，如果研究的粒度是character-level而不是word-level，需要另外的方式处理）
 
 * max-pooling 后是一个 scalar  
 
