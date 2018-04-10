@@ -8,3 +8,4 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
 这是一个详解 不过质量一般 初学可以参考一下 [Yoon Kim的textCNN讲解，以及tensorflow实现，CNN文本分类 - CSDN博客](https://blog.csdn.net/accumulate_zhang/article/details/78504637)
 
+
