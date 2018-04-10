@@ -77,6 +77,7 @@ Ye Zhang[^2] 等人对这个模型进行了大量的实验，并给出了调参�
 
 
 # 参考
+
 [1] Kim Y. Convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1408.5882, 2014.
 
 [2] Zhang Y, Wallace B. A sensitivity analysis of (and practitioners' guide to) convolutional neural networks for sentence classification[J]. arXiv preprint arXiv:1510.03820, 2015.
