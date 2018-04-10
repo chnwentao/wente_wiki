@@ -12,7 +12,9 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
 用与文本的CNN与传统用于图像的CNN的不同:
 
-* inputs: 使用了word embedding  ,不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个embedding，一般是一个分词，但也可以是一个字，总之每行都是一个向量，代表一个word
+* inputs: 使用了word embedding；
+
+   不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个embedding，一般是一个分词，但也可以是一个字，总之每行都是一个向量，代表一个word
 
 * 卷积层：卷积核的宽度 == embedding的维度
 
