@@ -10,4 +10,6 @@ wildml对这篇paper有一个tensorflow的实现[blog here](http://www.wildml.co
 
 ## CNN 用于文本的一些特点
 
-
+用与文本的CNN与传统用于图像的CNN的不同:
+* inputs: 使用了word embedding  ,输出就是 一个 “句子长度 * embedding维度” 的矩阵
+* 
