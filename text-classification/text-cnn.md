@@ -12,7 +12,7 @@ wildml 的[Understanding Convolutional Neural Networks for NLP](http://www.wildm
 
 使用了word embedding；
 
-  不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个token，一般是一个分词，但也可以是一个字，总之每行都是一个向量，代表一个word
+  不同于图像的像素，大部分NLP任务的输入是句子或文档作为一个矩阵。矩阵的每一行表示一个token，一般是一个分词，但也可以是一个字/字母/偏旁，总之每行都是一个向量，代表一个word
 
 * 卷积层：卷积核的宽度 == embedding的维度; 在视图中我们的filters会在图像的局部滑动，但在NLP中，我们一般会使用filters在矩阵的整个行上滑动。所以我们filters的宽度通常是和输入矩阵的宽度是一致的。
 
