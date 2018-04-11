@@ -39,7 +39,7 @@ NLP中会使用多个 window size / region size 的 filter （一般是 2-5 ） 
 
 ![](http://7xiuu0.com1.z0.glb.clouddn.com/18-4-10/7965563.jpg)
 
-## CNN的一些Hyperparameters的理解
+## CNN的一些Hyperparameters的理解 
 
 ### Narrow vs. Wide convolution
 
@@ -50,7 +50,7 @@ NLP中会使用多个 window size / region size 的 filter （一般是 2-5 ） 
 ### Stride Size
 Stride Size  定义了你的filter在每步中滑动多少，Stride size越大，filters的应用次数就会越少，输出的size就会越小。
 
-一般默认为 1， 除非你认为你的输出维度过大，但是显而易见这样会丢失信息。
+一般默认为1， 除非你认为你的输出维度过大，但是显而易见这样会丢失信息。
 
 ### Pooling Layers
 
@@ -77,6 +77,7 @@ Kim Y的这个模型很简单，但是却有着很好的性能。[Yoon Kim](http
 
 Ye Zhang[^2] 等人对这个模型进行了大量的实验，并给出了调参的建议，[paper here ](https://arxiv.org/abs/1510.03820)
 
+[卷积神经网络(CNN)在句子建模上的应用 | Jey Zhang](http://www.jeyzhang.com/cnn-apply-on-modelling-sentence.html)
 
 # 参考
 
