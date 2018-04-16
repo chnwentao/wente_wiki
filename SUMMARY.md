@@ -18,7 +18,7 @@
   * [CNN](shen-du-xue-xi/cnn.md)
     * [Pooling](shen-du-xue-xi/cnn/pooling.md)
   * [RNN](shen-du-xue-xi/rnn.md)
-  * [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
+  * [Attention](shen-du-xue-xi/attention.md)
 * [NLP](nlp.md)
   * [文本处理](wen-ben-chu-li.md)
     * [Flashtext 算法](wen-ben-chu-li/flashtext-suan-fa.md)
@@ -26,6 +26,7 @@
   * [Text Classification](text-classification.md)
     * [fastText](text-classification/fasttext.md)
     * [Text CNN](text-classification/text-cnn.md)
+* [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
 * [Coding](coding.md)
   * [Python](coding/python.md)
   * Shell
