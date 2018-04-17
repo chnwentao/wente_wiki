@@ -81,8 +81,8 @@
 
 ### Activation functions 激活函数
 
-### 拆分数据集
+### Split dataset 拆分数据集
 
 ### baseline
 
-### 检查点
+### Checkpoints 检查点
