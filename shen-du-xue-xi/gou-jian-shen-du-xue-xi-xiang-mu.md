@@ -74,6 +74,9 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 
 ### Gradient descent 梯度下降
 
+这是一个需要监控的指标，主要关注视梯度是否消失或爆炸
+
+
 ### Scaling 特征归一
 
 ### Batch Normalization & Layer Normalization 批归一化和层归一化
