@@ -76,7 +76,6 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 
 ### Scaling 特征归一
 
-
 ### Batch Normalization & Layer Normalization 批归一化和层归一化
 
 ### Dropout
