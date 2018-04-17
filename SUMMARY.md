@@ -20,6 +20,7 @@
     * [Pooling](shen-du-xue-xi/cnn/pooling.md)
   * [RNN](shen-du-xue-xi/rnn.md)
   * [Attention](shen-du-xue-xi/attention.md)
+  * [Regularization](shen-du-xue-xi/regularization.md)
   * [花书读书笔记](shen-du-xue-xi/hua-shu-du-shu-bi-ji.md)
 * [NLP](nlp.md)
   * [文本处理](wen-ben-chu-li.md)
