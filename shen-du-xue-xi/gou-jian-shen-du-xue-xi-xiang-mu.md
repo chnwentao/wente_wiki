@@ -131,6 +131,8 @@ BN 可以提高了准确度，同时缩短了训练时间。
 
 ### Activation functions 激活函数
 
+在 DL 中，ReLU 是最常用的非线性激活函数
+
 ### Split dataset 拆分数据集
 
 ### baseline
