@@ -123,6 +123,8 @@ BN 可以提高了准确度，同时缩短了训练时间。
 
 ### Dropout
 
+2015 Batch Normalization 兴起后，大家现在使用 dropout 越来越少了
+
 ### Activation functions 激活函数
 
 ### Split dataset 拆分数据集
