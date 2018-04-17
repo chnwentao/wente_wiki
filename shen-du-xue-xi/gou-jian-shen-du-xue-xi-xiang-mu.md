@@ -76,11 +76,12 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 
 这是一个需要监控的指标，主要关注视梯度是否消失或爆炸。
 
-可能原因：
+首先排除bug：
 
 - 检测到小梯度,很大可能是程序bug, 如输入数据未正确缩放或权重全部初始化为零。
 
 解决方法：
+
 - apply gradient clipping (in particular for NLP) when gradient explode.
 
 
