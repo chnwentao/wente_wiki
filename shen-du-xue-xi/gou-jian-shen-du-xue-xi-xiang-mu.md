@@ -36,5 +36,9 @@
 
 ### 框架选择及复用
 
-现在 tensorflow 还是主流。（2018-04）
+- 现在 tensorflow 还是主流。（2018-04）
+
+- 尽量对前人的成果进行复用。比如使用别人 pre-train  embedding 
+
+
 
