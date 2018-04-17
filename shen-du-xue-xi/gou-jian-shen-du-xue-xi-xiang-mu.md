@@ -141,7 +141,7 @@ BN 可以提高了准确度，同时缩短了训练时间。
 
 ### Randomization 
 
-
+## Optimizer
 
 
 
