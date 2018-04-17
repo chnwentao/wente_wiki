@@ -85,7 +85,9 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 - apply gradient clipping (in particular for NLP) when gradient explode.
 
 
-### Scaling 特征归一
+### Scaling 
+
+特征归一
 
 通常将特征缩放为以零为均值在特定范围内，如 [-1, 1]。特征的不适当缩放是梯度爆炸或降低的一个最常见的原因。
 
