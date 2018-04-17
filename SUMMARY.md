@@ -13,6 +13,7 @@
   * Boost
   * [SVM](ji-qi-xue-xi/svm.md)
 * [Deep Learning](shen-du-xue-xi.md)
+  * [构建深度学习项目](shen-du-xue-xi/gou-jian-shen-du-xue-xi-xiang-mu.md)
   * [硬件基础](shen-du-xue-xi/ying-jian-ji-chu.md)
   * [激活函数](shen-du-xue-xi/ji-huo-han-shu.md)
   * [CNN](shen-du-xue-xi/cnn.md)
