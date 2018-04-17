@@ -144,6 +144,8 @@ BN 可以提高了准确度，同时缩短了训练时间。
 ## Optimizer
 
 
+
+
 ## 参考
 
 [如何从零开始构建深度学习项目？这里有一份详细的教程](https://mp.weixin.qq.com/s/qpqqeSaRwQyBJlo3P25q6g )
