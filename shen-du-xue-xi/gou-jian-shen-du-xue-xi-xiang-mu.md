@@ -79,7 +79,7 @@
 
 ### Dropout
 
-### 激活函数
+### Activation functions 激活函数
 
 ### 拆分数据集
 
