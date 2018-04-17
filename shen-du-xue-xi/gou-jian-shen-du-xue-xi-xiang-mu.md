@@ -72,10 +72,10 @@
 
 ### Gradient descent 梯度下降
 
-### 特征归一
+### Scaling 特征归一
 
 
-### 批归一化和层归一化
+### Batch Normalization & Layer Normalization 批归一化和层归一化
 
 ### Dropout
 
