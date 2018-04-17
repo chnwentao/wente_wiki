@@ -80,6 +80,9 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 
 - 检测到小梯度,很大可能是程序bug, 如输入数据未正确缩放或权重全部初始化为零。
 
+解决方法：
+- apply gradient clipping (in particular for NLP) when gradient explode.
+
 
 ### Scaling 特征归一
 
