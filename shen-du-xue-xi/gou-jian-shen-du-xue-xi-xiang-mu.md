@@ -104,3 +104,8 @@ L1 正则化可以产生更加稀疏的参数，使网络更易于解释，因�
 ### Checkpoints 检查点
 
 ### Randomization
+
+
+## 参考
+
+[如何从零开始构建深度学习项目？这里有一份详细的教程](https://mp.weixin.qq.com/s/qpqqeSaRwQyBJlo3P25q6g )
